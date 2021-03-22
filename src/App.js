@@ -18,6 +18,9 @@ class App extends Component {
         const key = "inboundFax/2020-11-4/fax_attachment_8768251004.pdf";
         Storage.get(key).then(function (data) {
             console.log(`The signed URL: ${data}`);
+            const a = document.createElement('a');
+            a.href = data;
+
         }, function (err) {
             console.error(`Got error: ${err}`);
         });// get key from Storage.list
