@@ -60,126 +60,6 @@
       "Properties": {
         "Action": "lambda:GetLayerVersion",
         "LayerVersionArn": {
-          "Fn::Sub": [
-            "arn:aws:lambda:${AWS::Region}:${AWS::AccountId}:layer:${layerName}-${env}:${layerVersion}",
-            {
-              "layerName": "layerMyTest",
-              "env": {
-                "Ref": "env"
-              },
-              "layerVersion": "1"
-            }
-          ]
-        },
-        "Principal": {
-          "Ref": "AWS::AccountId"
-        }
-      }
-    },
-    "LambdaLayerPermissionawsAccounts7461190146241": {
-      "Type": "AWS::Lambda::LayerVersionPermission",
-      "Properties": {
-        "Action": "lambda:GetLayerVersion",
-        "LayerVersionArn": {
-          "Fn::Sub": [
-            "arn:aws:lambda:${AWS::Region}:${AWS::AccountId}:layer:${layerName}-${env}:${layerVersion}",
-            {
-              "layerName": "layerMyTest",
-              "env": {
-                "Ref": "env"
-              },
-              "layerVersion": "1"
-            }
-          ]
-        },
-        "Principal": "746119014624"
-      }
-    },
-    "LambdaLayerPermissionprivate2": {
-      "Type": "AWS::Lambda::LayerVersionPermission",
-      "Properties": {
-        "Action": "lambda:GetLayerVersion",
-        "LayerVersionArn": {
-          "Fn::Sub": [
-            "arn:aws:lambda:${AWS::Region}:${AWS::AccountId}:layer:${layerName}-${env}:${layerVersion}",
-            {
-              "layerName": "layerMyTest",
-              "env": {
-                "Ref": "env"
-              },
-              "layerVersion": "2"
-            }
-          ]
-        },
-        "Principal": {
-          "Ref": "AWS::AccountId"
-        }
-      }
-    },
-    "LambdaLayerPermissionawsAccounts7461190146242": {
-      "Type": "AWS::Lambda::LayerVersionPermission",
-      "Properties": {
-        "Action": "lambda:GetLayerVersion",
-        "LayerVersionArn": {
-          "Fn::Sub": [
-            "arn:aws:lambda:${AWS::Region}:${AWS::AccountId}:layer:${layerName}-${env}:${layerVersion}",
-            {
-              "layerName": "layerMyTest",
-              "env": {
-                "Ref": "env"
-              },
-              "layerVersion": "2"
-            }
-          ]
-        },
-        "Principal": "746119014624"
-      }
-    },
-    "LambdaLayerPermissionprivate3": {
-      "Type": "AWS::Lambda::LayerVersionPermission",
-      "Properties": {
-        "Action": "lambda:GetLayerVersion",
-        "LayerVersionArn": {
-          "Fn::Sub": [
-            "arn:aws:lambda:${AWS::Region}:${AWS::AccountId}:layer:${layerName}-${env}:${layerVersion}",
-            {
-              "layerName": "layerMyTest",
-              "env": {
-                "Ref": "env"
-              },
-              "layerVersion": "3"
-            }
-          ]
-        },
-        "Principal": {
-          "Ref": "AWS::AccountId"
-        }
-      }
-    },
-    "LambdaLayerPermissionawsAccounts7461190146243": {
-      "Type": "AWS::Lambda::LayerVersionPermission",
-      "Properties": {
-        "Action": "lambda:GetLayerVersion",
-        "LayerVersionArn": {
-          "Fn::Sub": [
-            "arn:aws:lambda:${AWS::Region}:${AWS::AccountId}:layer:${layerName}-${env}:${layerVersion}",
-            {
-              "layerName": "layerMyTest",
-              "env": {
-                "Ref": "env"
-              },
-              "layerVersion": "3"
-            }
-          ]
-        },
-        "Principal": "746119014624"
-      }
-    },
-    "LambdaLayerPermissionprivate4": {
-      "Type": "AWS::Lambda::LayerVersionPermission",
-      "Properties": {
-        "Action": "lambda:GetLayerVersion",
-        "LayerVersionArn": {
           "Ref": "LambdaLayer"
         },
         "Principal": {
@@ -187,7 +67,7 @@
         }
       }
     },
-    "LambdaLayerPermissionawsAccounts7461190146244": {
+    "LambdaLayerPermissionawsAccounts7461190146241": {
       "Type": "AWS::Lambda::LayerVersionPermission",
       "Properties": {
         "Action": "lambda:GetLayerVersion",

@@ -106,6 +106,88 @@
     "categories": {
       "auth": {
         "cognitocf0c6096": {}
+      },
+      "function": {
+        "myLayerTest": {
+          "deploymentBucketName": "amplify-create-react-app-auth-amplify-test-120630-deployment",
+          "s3Key": "amplify-builds/myLayerTest-34556d3050434369514b-build.zip"
+        },
+        "layerMyTest": {
+          "deploymentBucketName": "amplify-create-react-app-auth-amplify-test-120630-deployment",
+          "s3Key": "amplify-builds/layerMyTest-build.zip"
+        }
+      }
+    },
+    "nonCFNdata": {
+      "function": {
+        "layerMyTest": {
+          "layerVersionMap": {
+            "1": {
+              "permissions": [
+                {
+                  "type": "awsAccounts",
+                  "accounts": [
+                    "746119014624"
+                  ]
+                },
+                {
+                  "type": "private"
+                }
+              ],
+              "hash": "fGMQutTgxGtIfwHTw8bCap3OTNUm8Ks/FtdrSOnR+88="
+            }
+          }
+        }
+      }
+    }
+  },
+  "qa": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-create-react-app-auth-amplify-qa-151346-authRole",
+      "UnauthRoleArn": "arn:aws:iam::746119014624:role/amplify-create-react-app-auth-amplify-qa-151346-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::746119014624:role/amplify-create-react-app-auth-amplify-qa-151346-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-create-react-app-auth-amplify-qa-151346-deployment",
+      "UnauthRoleName": "amplify-create-react-app-auth-amplify-qa-151346-unauthRole",
+      "StackName": "amplify-create-react-app-auth-amplify-qa-151346",
+      "StackId": "arn:aws:cloudformation:us-east-1:746119014624:stack/amplify-create-react-app-auth-amplify-qa-151346/1c929a70-8b4b-11eb-a362-122e54527a47",
+      "AmplifyAppId": "d1a8j47n24stc8"
+    },
+    "categories": {
+      "auth": {
+        "cognitocf0c6096": {}
+      },
+      "function": {
+        "myLayerTest": {
+          "deploymentBucketName": "amplify-create-react-app-auth-amplify-qa-151346-deployment",
+          "s3Key": "amplify-builds/myLayerTest-34556d3050434369514b-build.zip"
+        },
+        "layerMyTest": {
+          "deploymentBucketName": "amplify-create-react-app-auth-amplify-qa-151346-deployment",
+          "s3Key": "amplify-builds/layerMyTest-build.zip"
+        }
+      }
+    },
+    "nonCFNdata": {
+      "function": {
+        "layerMyTest": {
+          "layerVersionMap": {
+            "1": {
+              "permissions": [
+                {
+                  "type": "awsAccounts",
+                  "accounts": [
+                    "746119014624"
+                  ]
+                },
+                {
+                  "type": "private"
+                }
+              ],
+              "hash": "fGMQutTgxGtIfwHTw8bCap3OTNUm8Ks/FtdrSOnR+88="
+            }
+          }
+        }
       }
     }
   }
